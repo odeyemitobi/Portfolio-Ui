@@ -27,7 +27,7 @@ function Home() {
             <h1 className="text-[44px] font-bold leading-[60px] ">{tittle}</h1>
             <p className=" text-base font-normal mt-7">{about}</p>
             <div className="mt-7">
-              <OrangeBtn>Download resume</OrangeBtn>
+              <OrangeBtn>Download Resume</OrangeBtn>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@ function Home() {
           />
         </div>
       </div>
-      <div className="bg-[#EDF7FA] pl-[14rem] pr-[9rem] pt-5 pb-5 flex text-center justify-between">
+      <div className="bg-[#EDF7FA] pl-[14rem] pr-[9rem] pt-5 pb-7 flex text-center justify-between">
         <div className="w-full">
-          <p className="text-left text-base">{first1}</p>
+          <p className="text-left text-[22px]">{first1}</p>
           <div className="bg-white rounded w-[98%] mt-3">
             <div className="p-5">
               <h1 className="text-[26px] font-bold leading-[38px] text-left">
@@ -58,7 +58,7 @@ function Home() {
         </div>
         <div className="w-full">
           <p className="text-right text-base text-[#00A8CC]">{second1}</p>
-          <div className="bg-white ml-auto rounded w-[98%] mt-3">
+          <div className="bg-white ml-auto rounded w-[98%] mt-5">
             <div className="p-5">
               <h1 className="text-[26px] font-bold leading-[38px] text-left">
                 {second2}
@@ -73,47 +73,47 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="pl-[14rem] pr-[9rem] pt-5 pb-5">
+      <div className="pl-[14rem] pr-[9rem] pt-5 pb-9">
         <div>
           <p className="text-[22px]">Featured works</p>
           <div className="mt-7">
-            <div className="flex">
-              <div>
-                <img src={Desigimg} alt="" />
+            <div className="flex pb-5 justify-between border-b border-solid border-[#E0E0E0] ">
+              <div className="w-full">
+                <img className="" src={Desigimg} alt="" />
               </div>
-              <div>
-                <h1>{Pretittle1}</h1>
-                <div className="flex">
+              <div className="w-[200%]">
+                <h1 className="text-[30px] font-bold">{Pretittle1}</h1>
+                <div className=" w-[31%] flex mt-5 justify-between">
                   <Bluebtn>2020</Bluebtn>
-                  <p>{Text1}</p>
+                  <p className="text-xl text-[#8695A4]">{Text1}</p>
                 </div>
-                <p>{Headline1}</p>
+                <p className=" w-[95%] mt-5">{Headline1}</p>
               </div>
             </div>
-            <div className="flex mt-5">
-              <div>
+            <div className="flex mt-5 pb-5 border-b border-solid border-[#E0E0E0]">
+              <div className="w-full">
                 <img src={Portimg} alt="" />
               </div>
-              <div>
-                <h1>{Pretittle2}</h1>
-                <div className="flex">
+              <div className="w-[200%]">
+                <h1 className="text-[30px] font-bold">{Pretittle2}</h1>
+                <div className=" w-[31%] flex mt-5 justify-between">
                   <Bluebtn>2018</Bluebtn>
-                  <p>{Text2}</p>
+                  <p className="text-xl text-[#8695A4]">{Text2}</p>
                 </div>
-                <p>{Headline2}</p>
+                <p className=" w-[95%] mt-5">{Headline2}</p>
               </div>
             </div>
-            <div className="flex mt-5">
-              <div>
+            <div className="flex mt-5 pb-5 border-b border-solid border-[#E0E0E0]">
+              <div className="w-full">
                 <img src={Typoimg} alt="" />
               </div>
-              <div>
-                <h1>{Pretittle3}</h1>
-                <div className="flex">
-                  <Bluebtn>2020</Bluebtn>
-                  <p>{Text3}</p>
+              <div className="w-[200%]">
+                <h1 className="text-[30px] font-bold">{Pretittle3}</h1>
+                <div className=" w-[31%] flex mt-5 justify-between">
+                  <Bluebtn>2018</Bluebtn>
+                  <p className="text-xl text-[#8695A4]">{Text3}</p>
                 </div>
-                <p>{Headline3}</p>
+                <p className=" w-[95%] mt-5">{Headline3}</p>
               </div>
             </div>
           </div>
