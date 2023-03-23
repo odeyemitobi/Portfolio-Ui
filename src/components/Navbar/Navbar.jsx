@@ -16,7 +16,16 @@ function Navbar() {
             Home
           </NavLink>
         </li>
-        <li className="px-6 py-4 text-xl font-medium">Works</li>
+        <li className="px-6 py-4 text-xl font-medium">
+          <NavLink
+            to="/work"
+            className={({ isActive }) =>
+              "nav-links" + (isActive ? " activated" : "")
+            }
+          >
+            Works
+          </NavLink>
+        </li>
         <li className="px-6 py-4 text-xl font-medium">
           <NavLink
             to="/blog"

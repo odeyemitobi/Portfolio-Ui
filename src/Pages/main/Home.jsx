@@ -1,7 +1,7 @@
 import React from "react";
 import { profile } from "../../Data";
 import { post } from "../../Data";
-import { works } from "../../Data";
+import { featureworks } from "../../Data";
 import Mainlayout from "../../Layouts/Mainlayout";
 import OrangeBtn from "./../../components/Buttons/OrangeBtn";
 import Bluebtn from "./../../components/Buttons/Bluebtn";
@@ -10,7 +10,7 @@ function Home() {
   // datas
   const { tittle, about, image } = profile;
   const { first, second } = post;
-  const { Desig, Port, Typograph } = works;
+  const { Desig, Port, Typograph } = featureworks;
 
   // broken down datas
   const { first1, first2, first3, first4, first5, first6 } = first;

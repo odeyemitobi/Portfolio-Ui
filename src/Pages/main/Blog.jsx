@@ -14,7 +14,7 @@ function Blog() {
 
   return (
     <Mainlayout>
-      <div className="pl-[17rem] pr-[15rem] py-[4rem]">
+      <div className="pl-[17rem] pr-60 py-16">
         <h1 className="text-[44px] font-bold leading-[60px]">{Pretittle}</h1>
         <div className=" w-full mt-10 pb-5 border-b border-solid border-[#E0E0E0]">
           <h1 className="text-[30px] leading-[44px] font-medium">{heads1}</h1>

@@ -2,6 +2,7 @@ import TOBEH from "../src/Assets/img/Tobeh.jpeg";
 import DESIGN from "../src/Assets/img/Designing.png";
 import POTRAIT from "../src/Assets/img/potrait.png";
 import MALAY from "../src/Assets/img/Malayalam.png";
+import COMPO from "../src/Assets/img/compo.png";
 
 export const profile = {
   tittle: " Hi, I am Tobi, Frontend Web developer",
@@ -31,7 +32,7 @@ export const post = {
   },
 };
 
-export const works = {
+export const featureworks = {
   Desig: {
     Pretittle1: "Designing Dashboards",
     Text1: "Dashboard",
@@ -76,5 +77,37 @@ export const blogs = {
   blog4: {
     heads4: "Highest Earners for the week",
     words4: "Forex, Exchanges",
+  },
+};
+
+export const works = {
+  Desig: {
+    Big: "Work",
+    Pretittle1: "Designing Dashboards",
+    Text1: "Dashboard",
+    Headline1:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    Desigimg: DESIGN,
+  },
+  Port: {
+    Pretittle2: "Vibrant Portraits of 2020",
+    Text2: "Illustration",
+    Headline2:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    Portimg: POTRAIT,
+  },
+  Typograph: {
+    Pretittle3: "36 Days of Malayalam type",
+    Text3: "Typography",
+    Headline3:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    Typoimg: MALAY,
+  },
+  Comdesign: {
+    Pretittle4: "Components",
+    Text4: "Components, Design",
+    Headline4:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    Comimg: COMPO,
   },
 };
