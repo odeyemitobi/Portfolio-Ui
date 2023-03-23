@@ -54,3 +54,27 @@ export const works = {
     Typoimg: MALAY,
   },
 };
+
+export const blogs = {
+  blog1: {
+    Pretittle: "Blog",
+    heads1: "UI Interactions of the week",
+    date1: "12 Feb 2019",
+    line1: "|",
+    words1: "Express, Handlebars",
+    explain1:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+  },
+  blog2: {
+    heads2: "How to make millions online",
+    words2: "Money, Opportunity",
+  },
+  blog3: {
+    heads3: "Tech Skills you should learn",
+    words3: "DeveOps, Software",
+  },
+  blog4: {
+    heads4: "Highest Earners for the week",
+    words4: "Forex, Exchanges",
+  },
+};
