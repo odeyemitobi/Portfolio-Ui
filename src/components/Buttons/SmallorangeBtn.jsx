@@ -6,6 +6,6 @@ function SmallorangeBtn(props) {
       {props.children}
     </button>
   );
-}
+} 
 
 export default SmallorangeBtn;

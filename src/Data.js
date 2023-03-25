@@ -123,8 +123,8 @@ export const usability = {
     Dashimg: MIND,
   },
   Headdash: {
-    content2: "Heading 1",
-    wordings2: "Heading 2",
+    content2: "Orders",
+    wordings2: "Order Details",
     Headimg1: HEADING1,
     Headimg2: HEADING2,
   },
