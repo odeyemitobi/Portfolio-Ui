@@ -1,5 +1,6 @@
 import React from "react";
 import { works } from "../../Data";
+import { useNavigate } from "react-router";
 import Bluebtn from "./../../components/Buttons/Bluebtn";
 import Mainlayout from "../../Layouts/Mainlayout";
 
@@ -13,6 +14,8 @@ function Work() {
   const { Pretittle3, Text3, Headline3, Typoimg } = Typograph;
   const { Pretittle4, Text4, Headline4, Comimg } = Comdesign;
 
+  const navigate = useNavigate();
+
   return (
     <Mainlayout>
       <div className="px-60 py-16">
@@ -22,7 +25,9 @@ function Work() {
             <img className="" src={Desigimg} alt="" />
           </div>
           <div className="w-[200%]">
-            <h1 className="text-[30px] font-bold">{Pretittle1}</h1>
+            <h1 className="text-[30px] font-bold cursor-pointer" onClick={() => navigate("/workdetails")}>
+              {Pretittle1}
+            </h1>
             <div className=" w-[37%] flex mt-5 justify-between">
               <Bluebtn>2020</Bluebtn>
               <p className="text-xl text-[#8695A4]">{Text1}</p>
@@ -35,7 +40,7 @@ function Work() {
             <img src={Portimg} alt="" />
           </div>
           <div className="w-[200%]">
-            <h1 className="text-[30px] font-bold">{Pretittle2}</h1>
+            <h1 className="text-[30px] font-bold cursor-pointer">{Pretittle2}</h1>
             <div className=" w-[36%] flex mt-5 justify-between">
               <Bluebtn>2018</Bluebtn>
               <p className="text-xl text-[#8695A4]">{Text2}</p>
@@ -48,7 +53,7 @@ function Work() {
             <img src={Typoimg} alt="" />
           </div>
           <div className="w-[200%]">
-            <h1 className="text-[30px] font-bold">{Pretittle3}</h1>
+            <h1 className="text-[30px] font-bold cursor-pointer">{Pretittle3}</h1>
             <div className=" w-[38%] flex mt-5 justify-between">
               <Bluebtn>2018</Bluebtn>
               <p className="text-xl text-[#8695A4]">{Text3}</p>
@@ -61,7 +66,7 @@ function Work() {
             <img src={Comimg} alt="" />
           </div>
           <div className="w-[200%]">
-            <h1 className="text-[30px] font-bold">{Pretittle4}</h1>
+            <h1 className="text-[30px] font-bold cursor-pointer">{Pretittle4}</h1>
             <div className=" w-[53%] flex mt-5 justify-between">
               <Bluebtn>2018</Bluebtn>
               <p className="text-xl text-[#8695A4]">{Text4}</p>

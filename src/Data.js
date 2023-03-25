@@ -3,6 +3,9 @@ import DESIGN from "../src/Assets/img/Designing.png";
 import POTRAIT from "../src/Assets/img/potrait.png";
 import MALAY from "../src/Assets/img/Malayalam.png";
 import COMPO from "../src/Assets/img/compo.png";
+import MIND from "../src/Assets/img/Mind.png";
+import HEADING1 from "../src/Assets/img/heading1.png";
+import HEADING2 from "../src/Assets/img/heading2.png";
 
 export const profile = {
   tittle: " Hi, I am Tobi, Frontend Web developer",
@@ -109,5 +112,20 @@ export const works = {
     Headline4:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     Comimg: COMPO,
+  },
+};
+export const usability = {
+  Desigdash: {
+    content1: "Designing Dashboards with usability in mind",
+    wordings1: "Dashboard, User Experience Design",
+    little1:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    Dashimg: MIND,
+  },
+  Headdash: {
+    content2: "Heading 1",
+    wordings2: "Heading 2",
+    Headimg1: HEADING1,
+    Headimg2: HEADING2,
   },
 };
